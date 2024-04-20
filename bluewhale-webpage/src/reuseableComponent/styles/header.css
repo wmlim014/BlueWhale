@@ -1,0 +1,52 @@
+header {
+    background-color: rgb(119, 174, 201, 0.6);
+    display: flex;
+    justify-content: flex-start;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+  
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Make the list a flex container as well */
+    align-items: center; /* Align items vertically in the center */
+    font-family: Verdana, sans-serif;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 25px;
+}
+
+header nav a {
+    text-decoration: none;
+    padding: 10px;
+    vertical-align: middle; /* This may not be necessary with flexbox */
+    color: #043355;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    background-color: #025C8E;
+    border-radius: 15px;
+    color: #FFFFFF;
+}
+
+/* Logo styles */
+.header-logo {
+    width: auto;
+    max-width: 70px;
+    margin: 20px;
+    margin-right: 25px;
+}
+
+.header-logo:hover {
+    box-shadow: 0 0 10px 3px #77AEC9;
+    border-radius: 100%;
+}
